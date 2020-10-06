@@ -39,7 +39,7 @@ import uncertainty_metrics.numpy as um
 
 probabilities = ...
 labels = ...
-diagram = um.reliability_diagram(labels, probabilities)
+diagram = um.reliability_diagram(probabilities, labels)
 ```
 
 __Brier Score.__
